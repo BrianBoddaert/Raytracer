@@ -14,8 +14,8 @@ bool Sphere::Hit(const Ray& ray, HitRecord& hitrecord) const
 	// Intersection Sphere:
 	// Als Vector tussen P en Osphere == r dan is het op de grens
 	// Dit kan je herschrijven als (p - Osphere) dot (p - Osphere) == r^2
-	// Want Dot product met jezelf is Squared magnitude
-	// Formule veel draaien dan krijg je een quadratische formule
+	// Want Dot product met zichzelf is Squared magnitude
+	// Formule veel draaien dan krijg je een kwadratische formule
 	// t = (-B plusminus sqrt(B^2 - 4AC)) / (2A)
 	// B^2 -4AC = Discriminant
 	// < 0   ray does not intersect
